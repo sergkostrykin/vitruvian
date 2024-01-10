@@ -1,0 +1,6 @@
+framework module Pods_Vitruvian_Exercises {
+  umbrella header "Pods-Vitruvian Exercises-umbrella.h"
+
+  export *
+  module * { export * }
+}
