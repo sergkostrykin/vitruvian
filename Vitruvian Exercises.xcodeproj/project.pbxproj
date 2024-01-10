@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF191992AD8E8030080CD86 /* ExerciseListNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF191982AD8E8030080CD86 /* ExerciseListNavigationController.swift */; };
+		0EF1919B2AD8E80B0080CD86 /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1919A2AD8E80B0080CD86 /* ExerciseListViewController.swift */; };
+		0EF1919D2AD8E8170080CD86 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1919C2AD8E8170080CD86 /* ExerciseDetail.swift */; };
+		0EF1919F2AD8EC2F0080CD86 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1919E2AD8EC2F0080CD86 /* ExerciseViewModel.swift */; };
+		5C81806E2B4E963C000A57DC /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81806D2B4E963C000A57DC /* ExerciseCollectionViewCell.swift */; };
+		5C8180712B4ED79E000A57DC /* ExerciseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8180702B4ED79E000A57DC /* ExerciseDetailViewModel.swift */; };
+		8B88EF312746104C00DFBCB8 /* VitruvianExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88EF302746104C00DFBCB8 /* VitruvianExercises.swift */; };
+		8B88EF352746104D00DFBCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B88EF342746104D00DFBCB8 /* Assets.xcassets */; };
+		8B88EF382746104D00DFBCB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B88EF372746104D00DFBCB8 /* Preview Assets.xcassets */; };
+		8B88EF41274610EA00DFBCB8 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88EF40274610EA00DFBCB8 /* Exercise.swift */; };
+		8B88EF43274610FB00DFBCB8 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88EF42274610FB00DFBCB8 /* Equipment.swift */; };
+		8B88EF452746110400DFBCB8 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88EF442746110400DFBCB8 /* MuscleGroup.swift */; };
+		8B88EF472746117700DFBCB8 /* ExerciseVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88EF462746117700DFBCB8 /* ExerciseVideo.swift */; };
+		8B88EF492746123600DFBCB8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88EF482746123600DFBCB8 /* API.swift */; };
+		8F66983842149BFBDB89AE36 /* Pods_Vitruvian_Exercises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACEE2322BC12EFEA7F20899 /* Pods_Vitruvian_Exercises.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EF191982AD8E8030080CD86 /* ExerciseListNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListNavigationController.swift; sourceTree = "<group>"; };
+		0EF1919A2AD8E80B0080CD86 /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		0EF1919C2AD8E8170080CD86 /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
+		0EF1919E2AD8EC2F0080CD86 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		4ACEE2322BC12EFEA7F20899 /* Pods_Vitruvian_Exercises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vitruvian_Exercises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C81806D2B4E963C000A57DC /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C8180702B4ED79E000A57DC /* ExerciseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewModel.swift; sourceTree = "<group>"; };
+		8B88EF2D2746104C00DFBCB8 /* Vitruvian Exercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vitruvian Exercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B88EF302746104C00DFBCB8 /* VitruvianExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitruvianExercises.swift; sourceTree = "<group>"; };
+		8B88EF342746104D00DFBCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B88EF372746104D00DFBCB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B88EF40274610EA00DFBCB8 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		8B88EF42274610FB00DFBCB8 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		8B88EF442746110400DFBCB8 /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
+		8B88EF462746117700DFBCB8 /* ExerciseVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseVideo.swift; sourceTree = "<group>"; };
+		8B88EF482746123600DFBCB8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C5DF93E1704D8B0BC5BC84DA /* Pods-Vitruvian Exercises.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitruvian Exercises.debug.xcconfig"; path = "Target Support Files/Pods-Vitruvian Exercises/Pods-Vitruvian Exercises.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE6AE872DC8EE092B381029 /* Pods-Vitruvian Exercises.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vitruvian Exercises.release.xcconfig"; path = "Target Support Files/Pods-Vitruvian Exercises/Pods-Vitruvian Exercises.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B88EF2A2746104C00DFBCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F66983842149BFBDB89AE36 /* Pods_Vitruvian_Exercises.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF191972AD8E7F50080CD86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C81806C2B4E9619000A57DC /* Cells */,
+				0EF191982AD8E8030080CD86 /* ExerciseListNavigationController.swift */,
+				0EF1919A2AD8E80B0080CD86 /* ExerciseListViewController.swift */,
+				0EF1919C2AD8E8170080CD86 /* ExerciseDetail.swift */,
+				5C8180702B4ED79E000A57DC /* ExerciseDetailViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B97F030A883FE8F1C0C6A70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5DF93E1704D8B0BC5BC84DA /* Pods-Vitruvian Exercises.debug.xcconfig */,
+				DDE6AE872DC8EE092B381029 /* Pods-Vitruvian Exercises.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		36FB63CA497CCB1AAD9858E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ACEE2322BC12EFEA7F20899 /* Pods_Vitruvian_Exercises.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C81806C2B4E9619000A57DC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5C81806D2B4E963C000A57DC /* ExerciseCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8B88EF242746104C00DFBCB8 = {
+			isa = PBXGroup;
+			children = (
+				8B88EF2F2746104C00DFBCB8 /* Vitruvian Exercises */,
+				8B88EF2E2746104C00DFBCB8 /* Products */,
+				2B97F030A883FE8F1C0C6A70 /* Pods */,
+				36FB63CA497CCB1AAD9858E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B88EF2E2746104C00DFBCB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B88EF2D2746104C00DFBCB8 /* Vitruvian Exercises.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B88EF2F2746104C00DFBCB8 /* Vitruvian Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				8B88EF3F274610CC00DFBCB8 /* API */,
+				8B88EF3E274610C700DFBCB8 /* Models */,
+				0EF191972AD8E7F50080CD86 /* Views */,
+				0EF1919E2AD8EC2F0080CD86 /* ExerciseViewModel.swift */,
+				8B88EF302746104C00DFBCB8 /* VitruvianExercises.swift */,
+				8B88EF342746104D00DFBCB8 /* Assets.xcassets */,
+				8B88EF362746104D00DFBCB8 /* Preview Content */,
+			);
+			path = "Vitruvian Exercises";
+			sourceTree = "<group>";
+		};
+		8B88EF362746104D00DFBCB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B88EF372746104D00DFBCB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B88EF3E274610C700DFBCB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B88EF40274610EA00DFBCB8 /* Exercise.swift */,
+				8B88EF42274610FB00DFBCB8 /* Equipment.swift */,
+				8B88EF442746110400DFBCB8 /* MuscleGroup.swift */,
+				8B88EF462746117700DFBCB8 /* ExerciseVideo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B88EF3F274610CC00DFBCB8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8B88EF482746123600DFBCB8 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B88EF2C2746104C00DFBCB8 /* Vitruvian Exercises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B88EF3B2746104D00DFBCB8 /* Build configuration list for PBXNativeTarget "Vitruvian Exercises" */;
+			buildPhases = (
+				804D979A11A23685D260BFC2 /* [CP] Check Pods Manifest.lock */,
+				8B88EF292746104C00DFBCB8 /* Sources */,
+				8B88EF2A2746104C00DFBCB8 /* Frameworks */,
+				8B88EF2B2746104C00DFBCB8 /* Resources */,
+				6719F1AE01D7A1BD5A5998A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vitruvian Exercises";
+			productName = "Vitruvian Exercises";
+			productReference = 8B88EF2D2746104C00DFBCB8 /* Vitruvian Exercises.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B88EF252746104C00DFBCB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8B88EF2C2746104C00DFBCB8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B88EF282746104C00DFBCB8 /* Build configuration list for PBXProject "Vitruvian Exercises" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B88EF242746104C00DFBCB8;
+			productRefGroup = 8B88EF2E2746104C00DFBCB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B88EF2C2746104C00DFBCB8 /* Vitruvian Exercises */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B88EF2B2746104C00DFBCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B88EF382746104D00DFBCB8 /* Preview Assets.xcassets in Resources */,
+				8B88EF352746104D00DFBCB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6719F1AE01D7A1BD5A5998A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vitruvian Exercises/Pods-Vitruvian Exercises-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vitruvian Exercises/Pods-Vitruvian Exercises-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vitruvian Exercises/Pods-Vitruvian Exercises-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804D979A11A23685D260BFC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vitruvian Exercises-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B88EF292746104C00DFBCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF1919F2AD8EC2F0080CD86 /* ExerciseViewModel.swift in Sources */,
+				0EF191992AD8E8030080CD86 /* ExerciseListNavigationController.swift in Sources */,
+				0EF1919D2AD8E8170080CD86 /* ExerciseDetail.swift in Sources */,
+				5C8180712B4ED79E000A57DC /* ExerciseDetailViewModel.swift in Sources */,
+				8B88EF312746104C00DFBCB8 /* VitruvianExercises.swift in Sources */,
+				8B88EF43274610FB00DFBCB8 /* Equipment.swift in Sources */,
+				8B88EF452746110400DFBCB8 /* MuscleGroup.swift in Sources */,
+				5C81806E2B4E963C000A57DC /* ExerciseCollectionViewCell.swift in Sources */,
+				8B88EF41274610EA00DFBCB8 /* Exercise.swift in Sources */,
+				0EF1919B2AD8E80B0080CD86 /* ExerciseListViewController.swift in Sources */,
+				8B88EF472746117700DFBCB8 /* ExerciseVideo.swift in Sources */,
+				8B88EF492746123600DFBCB8 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B88EF392746104D00DFBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B88EF3A2746104D00DFBCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B88EF3C2746104D00DFBCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DF93E1704D8B0BC5BC84DA /* Pods-Vitruvian Exercises.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vitruvian Exercises/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.vitruvian.Vitruvian-Exercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B88EF3D2746104D00DFBCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE6AE872DC8EE092B381029 /* Pods-Vitruvian Exercises.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vitruvian Exercises/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.vitruvian.Vitruvian-Exercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B88EF282746104C00DFBCB8 /* Build configuration list for PBXProject "Vitruvian Exercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B88EF392746104D00DFBCB8 /* Debug */,
+				8B88EF3A2746104D00DFBCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B88EF3B2746104D00DFBCB8 /* Build configuration list for PBXNativeTarget "Vitruvian Exercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B88EF3C2746104D00DFBCB8 /* Debug */,
+				8B88EF3D2746104D00DFBCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B88EF252746104C00DFBCB8 /* Project object */;
+}
